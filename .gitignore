@@ -54,6 +54,7 @@ coverage/
 
 # Trae
 .trae/
+GenByAI.md
 
 # Others
 build.py

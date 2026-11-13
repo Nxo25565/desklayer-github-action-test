@@ -167,25 +167,29 @@ p,span
   transition: background 0.3s ease;
 }
 
+/* FixByAI #15: Remove 按钮背景改为不透明红色，避免与列表项半透明紫底叠加混色 */
 .remove-btn{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 6px 8px;
-  /* border-bottom: 1px solid #eee; */
-  border: 2.5px solid #F6D6D6;
-  background: #e58f8f84;
+  border: 2.5px solid #cecae954;
+  background: #c6c9f0c7;
   border-radius: 10px;
   margin: 8px;
+  /* color: #6b2323; */
+  font-weight: 500;
 }
 .list-item:hover {
   background: #c9d9f2bc;
   transition: background 0.3s ease;
 }
 
+/* FixByAI #15: hover 同步使用不透明色，保持对比度 */
 .remove-btn:hover {
-  background: #f6b4b4bc;
-  transition: background 0.3s ease;
+  background: #f9bcbc;
+  border-color: #e79c9c;
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 /* 添加按钮 */

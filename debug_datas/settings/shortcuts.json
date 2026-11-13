@@ -1,51 +1,6 @@
 {
   "shortcuts": [
     {
-      "name": "Wordpad",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Wordpad.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Windows Media Player",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Windows Media Player.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Windows Fax and Scan",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Windows Fax and Scan.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Steps Recorder",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Steps Recorder.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Snipping Tool",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Snipping Tool.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Remote Desktop Connection",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Remote Desktop Connection.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Quick Assist",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Quick Assist.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Paint",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Paint.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
-      "name": "Math Input Panel",
-      "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Math Input Panel.lnk",
-      "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories"
-    },
-    {
       "name": "哔哩哔哩",
       "path": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\哔哩哔哩.lnk",
       "importedFromFolder": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs"
