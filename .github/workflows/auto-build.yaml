@@ -1,0 +1,39 @@
+name: DLBuild
+run-name: ${{ github.ref_name }}
+permissions:
+  contents: write
+on: [push]
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo setup
+        uses: actions/checkout@v6
+      - run: ls
+
+      - name: install pkg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm install
+
+      - name: Build
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run build:unpack
+
+      - name: Packaging
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r win-unpack.zip ./dist/win-unpack
+        
+    
+      - name: Release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: build${{ github.ref_name }}
+          artifacts: win-unpack.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
